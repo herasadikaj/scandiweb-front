@@ -206,3 +206,17 @@ html, body {
     gap: 20px;
   }
 }
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden; 
+  }
+
+  .product-grid {
+    padding: 0 10px; 
+  }
+
+  .container {
+    padding: 10px; 
+  }
+}
